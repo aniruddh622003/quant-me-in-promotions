@@ -1,0 +1,137 @@
+<mjml>
+  <mj-head>
+    <mj-title>You're in.</mj-title>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-size="16px" color="#ffffff" line-height="24px"></mj-text>
+      <mj-button background-color="#ffffff" color="#4800ac" font-weight="bold" border-radius="25px" inner-padding="15px 30px"></mj-button>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+    <mj-style>
+      .bold-text {
+        font-weight: 700;
+        color: #00e676; /* A slight green accent for "Go" signals/money */
+      }
+      .feature-icon {
+        width: 50px;
+        margin-bottom: 10px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#370085"> <!-- Solid Brand Purple Background -->
+
+    <!-- LOGO SECTION -->
+    <mj-section padding-top="40px" padding-bottom="20px">
+      <mj-column background-color="#ffffff">
+        <mj-image width="70px" src="assets/app-logo.png" alt="Logo Icon" padding-bottom="0px" />
+        <mj-text align="center" font-size="20px" font-weight="bold" font-family="LAto" color="#000">
+          Quant Me In
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- HERO IMAGE (Place your new 3-phone screenshot here) -->
+    <mj-section padding-bottom="20px">
+      <mj-column>
+        <!-- Place your new screenshot here -->
+        <mj-image width="550px" src="assets/hero.png" alt="App Preview" border-radius="12px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- MAIN WELCOME -->
+    <mj-section padding="20px 20px">
+      <mj-column width="600px">
+        <mj-text font-size="32px" font-weight="bold" align="center" padding-bottom="10px">
+          Welcome to the inside.
+        </mj-text>
+        <mj-text align="center" padding-bottom="30px">
+          <table align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="background: #00e676; border-radius: 50px;">
+            <tr>
+              <td style="padding: 8px 25px; color: #4a0072; font-weight: bold; font-size: 13px; letter-spacing: 1px; text-transform: uppercase;">
+                ✨ Beta Access: Confirmed
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+        <mj-text>
+          Hi,
+        </mj-text>
+
+        <mj-text>
+          We’ve removed the velvet ropes. You now have the same power as a billion-dollar hedge fund, right in your pocket. No limits on backtests. No restricted features.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- FEATURE GRID WITH ICONS -->
+    <mj-section padding="20px 20px">
+      <!-- Feature 1 -->
+      <mj-column width="33%">
+        <mj-text align="center" css-class="feature-icon-text" padding-bottom="10px" font-size="25px">⚙️</mj-text>
+        <mj-text align="center" font-weight="bold" font-size="14px" padding-top="0px">Strategy Builder</mj-text>
+        <mj-text align="center" font-size="12px" color="#d1c4e9">Define complex rules visually. No coding required.</mj-text>
+      </mj-column>
+      
+      <!-- Feature 2 -->
+      <mj-column width="33%">
+        <mj-text align="center" css-class="feature-icon-text" padding-bottom="10px" font-size="25px">🚀</mj-text>
+        <mj-text align="center" font-weight="bold" font-size="14px" padding-top="0px">Backtesting Engine</mj-text>
+        <mj-text align="center" font-size="12px" color="#d1c4e9">Get CAGR & Sharpe ratios in seconds.</mj-text>
+      </mj-column>
+
+      <!-- Feature 3 -->
+      <mj-column width="33%">
+        <mj-text align="center" css-class="feature-icon-text" padding-bottom="10px" font-size="25px">🔔</mj-text>
+        <mj-text align="center" font-weight="bold" font-size="14px" padding-top="0px">Smart Alerts</mj-text>
+        <mj-text align="center" font-size="12px" color="#d1c4e9">Never miss a market move just becuase you are busy.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- THE CATCH SECTION -->
+    <mj-section padding="20px 20px">
+      <mj-column width="600px">
+        <mj-divider border-width="1px" border-color="#7c4dff" padding-bottom="30px" />
+        
+        <mj-text font-size="20px" font-weight="bold" color="#00e676">
+          The only catch?
+        </mj-text>
+        
+        <mj-text>
+          <b>We need you to be loud.</b> Break the app. Push the engine to the edge. If something sucks, tell us. If you love it, tell us what to build next.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CALL TO ACTION -->
+    <mj-section padding-top="10px" padding-bottom="40px">
+      <mj-column>
+        <mj-button href="https://your-link-here.com" font-size="16px">
+          LAUNCH BETA APP
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- REFERRAL SECTION (UPDATED - HIGHLIGHTED) -->
+    <mj-section padding="0 20px 40px 20px">
+      <mj-column width="600px" background-color="#4a0072" border-radius="12px" padding="25px" border="1px solid #7c4dff">
+        <mj-text align="center" font-size="18px" font-weight="bold" color="#ffffff" padding-bottom="10px">
+          🎟️ Want to bring a +1?
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#d1c4e9" padding-bottom="0">
+          We are keeping this circle tight. But if you have one friend who trades seriously, <b>reply to this email with their address</b> and we'll get them in.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section padding-bottom="40px">
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#b388ff">
+          © 2025 Quant Me In<br/>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
