@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quant Me In - WhatsApp Invite</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
+            body {
+                font-family: "Inter", sans-serif;
+                background-color: #1a1a1a;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            /* The Card Container - Square for WhatsApp */
+            .invite-card {
+                width: 1080px; /* High Res for Screenshot */
+                height: 1180px;
+                background: linear-gradient(135deg, #4300a1 0%, #3700b3 100%);
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 60px; /* Reduced padding to fit new content */
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+                /* Scale down for viewing in browser if needed, but render nicely */
+                transform: scale(0.5);
+            }
+
+            .glass-panel {
+                background: rgb(33 33 33 / 55%);
+                backdrop-filter: blur(10px);
+                border: 2px solid rgba(255, 255, 255, 0.2);
+                border-radius: 40px;
+            }
+
+            .accent-text {
+                color: #00e676;
+            }
+
+            /* Decorative Background Elements */
+            .circle-1 {
+                position: absolute;
+                top: -10px;
+                right: -100px;
+                width: 500px;
+                height: 500px;
+                background: rgba(0, 230, 118, 0.1);
+                border-radius: 50%;
+                filter: blur(80px);
+            }
+
+            .circle-2 {
+                position: absolute;
+                bottom: -50px;
+                left: -50px;
+                width: 400px;
+                height: 400px;
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 50%;
+                filter: blur(60px);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 
+      INSTRUCTIONS:
+      1. Open this file in a browser.
+      2. Set browser zoom to 100%.
+      3. Take a screenshot of the square card.
+      4. Share on WhatsApp!
+    -->
+
+        <div class="invite-card">
+            <!-- Background Decor -->
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+
+            <!-- Header -->
+            <div class="relative z-10 flex justify-between items-center">
+                <div class="flex items-center gap-4">
+                    <!-- Simple Logo Placeholder -->
+                    <div class="w-20 h-20 bg-white rounded-2xl flex items-center justify-center">
+                        <img src="assets/app-logo.png" width="60px" />
+                    </div>
+                    <h1 class="text-white text-4xl font-bold tracking-wider uppercase">Quant Me In</h1>
+                </div>
+                <div class="px-6 py-2 border-2 border-[#00e676] rounded-full">
+                    <span class="text-[#00e676] text-2xl font-bold uppercase tracking-widest">Beta Access</span>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="relative z-10 mt-8">
+                <h2 class="text-white text-8xl font-extrabold leading-tight mb-6">
+                    Too busy for the <br />
+                    <span class="accent-text">Markets?</span>
+                </h2>
+                <p class="text-gray-200 text-4xl font-medium max-w-3xl leading-snug">
+                    Stop trading on intuition. <b>Backtest first.</b> <br />
+                    The automated workspace for the <b>Busy Trader</b>.
+                </p>
+            </div>
+
+            <!-- Center Feature Visual (Abstract) -->
+            <div class="flex gap-6 mt-8 mb-8">
+                <div class="glass-panel px-8 py-6 flex items-center gap-4">
+                    <i data-lucide="bar-chart-2" class="w-12 h-12 text-[#00e676]"></i>
+                    <span class="text-white text-3xl font-bold">Strategy Builder</span>
+                </div>
+                <div class="glass-panel px-8 py-6 flex items-center gap-4">
+                    <i data-lucide="clock" class="w-12 h-12 text-[#00e676]"></i>
+                    <span class="text-white text-3xl font-bold">Save Time</span>
+                </div>
+            </div>
+
+            <!-- Call to Action Box -->
+            <div
+                class="glass-panel p-10 relative z-10 mt-auto text-center border-[#00e676] border-opacity-50 flex flex-col items-center"
+            >
+                <h3 class="text-white text-5xl font-bold mb-4">Want in?</h3>
+                <p class="text-gray-200 text-3xl mb-8">
+                    Send us your
+                    <span class="text-white font-bold underline decoration-[#00e676]">Play Store Email ID</span> to get
+                    the link.
+                </p>
+
+                <!-- Perks Badge -->
+                <div class="bg-[#00e676]/30 border-2 border-[#00e676]/30 px-8 py-4 rounded-2xl w-full max-w-2xl">
+                    <p class="text-[#00e676] text-2xl font-bold uppercase tracking-wide mb-2">
+                        Everything is Free (Limited Time)
+                    </p>
+                    <p class="text-gray-300 text-xl font-medium">
+                        + <span class="text-white font-bold">Special Perks</span> for testers when pricing rolls out 🎁
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            lucide.createIcons();
+        </script>
+    </body>
+</html>
